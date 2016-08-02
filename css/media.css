@@ -91,9 +91,15 @@ text-align: center;
   padding-top: 6px;
 }
 
-
-
-
+.scrl img {
+  display: none;
+}
+.welcome-title h1 {
+  margin-top: 88px;
+}
+.welcome-title p {
+  margin-bottom: 37px;
+}
 
 }
 

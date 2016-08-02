@@ -262,3 +262,6 @@ sup {
   top: 2615px;
   z-index: 1;
 }
+.col-sm-3 > img {
+  width: 100%;
+}
