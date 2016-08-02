@@ -1,0 +1,99 @@
+@media (min-width:992px) and (max-width: 1199px) {
+.btm2 img {
+
+  top: 2663px;
+
+}
+
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+.tab-box > p {
+  font-size: 12px;
+}
+sup {
+  font-size: 12px;
+}
+.tab-box {
+  height: 132px;
+  padding: 18px;
+ 
+}
+.btm2 img {
+  top: 2799px;
+}
+
+
+}
+
+@media (min-width:320px) and (max-width: 767px) {
+
+.col-sm-2.resize.col-xs-3 {
+
+  width: 50%;
+}
+.tab-box {
+  height: 128px;
+  padding: 41px;
+
+}
+.tab-box > p {
+  font-size: 16px;
+}
+sup {
+  font-size: 16px;
+}
+
+.col-sm-2.resize.col-xs-3:last-child {
+  width: 100%;
+}
+.extra2 {
+  padding-top: 0;
+}
+.copy-right {
+  text-align: center;
+}
+.copy-right a {
+  font-size: 14px;
+}
+.copy > p {
+text-align: center;
+}
+.media-body > h4 {
+  padding-top: 0;
+}
+.media-body > ul {
+  padding-bottom: 0;
+}
+
+.scrl img {
+  bottom: -194px;
+  right: 200px;
+}
+.btm img {
+  display: none;
+}
+.btm2 img {
+  display: none;
+}
+.details-body {
+  margin: 33px 0;
+}
+.feature-body h1 {
+  margin: 25px 0;
+}
+.pricing-body > h1 {
+  margin: 19px 0 49px;
+}
+.jira_button > p {
+
+  padding-bottom: 1px;
+  padding-top: 6px;
+}
+
+
+
+
+
+}
+

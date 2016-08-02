@@ -1,0 +1,264 @@
+/*-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+    
+    1. Theme Default CSS (body, link color, section etc)
+
+    -----------------------------------------------------------------------------------*/
+    /*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+/*start default*/
+html,
+body {
+	height: 100%;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+a:active,
+a:hover,a:focus {
+	outline: 0 none;
+}
+p {
+	margin: 0 0 15px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 0 10px;
+}
+a {
+	transition: all 0.3s ease 0s;
+	text-decoration: none;
+}
+img {
+}
+/*end default*/
+/*nav*/
+.navbar {
+  padding-top: 25px;
+  min-height: 98px;
+  margin-bottom: 0;
+}
+.navbar-default {
+  background-color: #f57421;
+  border-color: #f57421;
+}
+.navbar-brand > img {
+  margin-top: -24px;
+}
+.trial {
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+/*section bg-main*/
+section.bg-main {
+  background: #f57421 none repeat scroll 0 0;
+  text-align: center;
+}
+.welcome-title h1 {
+  color: #fff;
+  font-size: 58px;
+  margin-top: 239px;
+}
+.welcome-title h4 {
+  color: #eee;
+  font-size: 24px;
+}
+.btn-info {
+  background-color: #fff;
+  border-color: #fff;
+  color: #cc7f55;
+  font-size: 19px;
+  margin-top: 62px;
+  padding: 19px 31px;
+}
+.welcome-title p {
+  color: #fff;
+  font-size: 17px;
+  margin-bottom: 172px;
+  margin-top: 12px;
+}
+/*section details*/
+.details-body {
+  margin: 102px 0;
+}
+.details-body h4 {
+  color: #000;
+  font-size: 30px;
+  margin-bottom: 44px;
+}
+.details-body img {
+  box-shadow: 1px 2px 8px -3px #000;
+  width: 100%;
+}
+.details-body p {
+  color: #797979;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  margin-top: 44px;
+}
+.gallery{text-align: center;}
+/*feature area*/
+.feature-body h1 {
+  color: #000;
+  font-size: 45px;
+  margin: 102px 0;
+}
+.container.custom-width {
+  padding: 0 11%;
+}
+.feature-body p {
+  font-size: 20px;
+  margin: 35px 0 55px;
+}
+.spcl {
+  margin-top: 43px;
+}
+/*pricing*/
+.pricing-body > h1 {
+  color: #000;
+  font-size: 45px;
+  margin: 102px 0 90px;
+  text-align: center;
+}
+.icon-area > a {
+  border: 1px solid #ccc;
+  padding: 11px 24px;
+}
+.icon-area {
+  padding-bottom: 45px;
+  text-align: center;
+}
+.icon-area > a:first-child {
+  border-radius: 6px 0 0 6px;
+}
+.icon-area > a:last-child {
+  border-radius: 0 6px 6px 0;
+}
+.fa.fa-cloud > p {
+  color: #a9a9a9;
+  float: right;
+  font-size: 16px;
+  padding-left: 13px;
+}
+.fa.fa-database > p {
+  color: #a9a9a9;
+  float: right;
+  font-size: 16px;
+  padding-left: 13px;
+}
+.fa {
+  color: #a9a9a9;
+}
+.icon-area > a:hover {
+  border: 1px solid #000;
+}
+.fa:hover {
+  color: #D4895F;
+}
+.fa.fa-database:hover,.fa.fa-cloud:hover > p {
+  color: ##D4895F;
+}
+.tab-box > p {
+  font-size: 20px;
+}
+sup {
+  color: #ec9e70;
+  font-size: 20px;
+}
+.tab-box {
+  background: #fbfbfb none repeat scroll 0 0;
+  border: 1px solid #ccc;
+  height: 184px;
+  padding: 28px;
+  text-align: center;
+}
+.col-sm-2.resize.col-xs-3 {
+  padding: 0;
+  width: 14.2%;
+}
+.extra2 {
+  padding-top: 22px;
+}
+.jira_button {
+  text-align: center;
+}
+.btn.btn-md.btn-info.bg-color {
+  background: #f57421 none repeat scroll 0 0;
+  border-color: #f57421;
+  color: #fff;
+}
+.jira_button > p {
+  color: #797979;
+  font-size: 17px;
+  padding-bottom: 70px;
+  padding-top: 14px;
+}
+.jira_button span {
+  color: #f57421;
+}
+/*media section*/
+.media-body > ul {
+  padding: 0;
+}
+.media-body > h4 {
+  padding-top: 34px;
+}
+.media-body > h4 {
+  padding-top: 34px;
+}
+.media-body > ul {
+  padding-bottom: 79px;
+}
+.copy-right {
+  text-align: right;
+}
+.copy-right > p {
+  display: inline;
+}
+#med a {
+  color: #939393;
+  font-size: 18px;
+  line-height: 35px;
+}
+.copy > p {
+  color: #939393;
+  font-size: 16px;
+}
+.copy-right a {
+  color: #939393;
+  font-size: 16px;
+  padding: 0 15px;
+}
+.col-sm-3.col-xs-3 > img {
+  width: 100%;
+}
+.scrl img {
+  bottom: -19px;
+  position: absolute;
+  z-index: 1;
+}
+.btm {
+  text-align: center;
+}
+.btm img {
+  bottom: -41px;
+  position: absolute;
+  right: 48%;
+  z-index: 1;
+}
+.btm2 img {
+  left: 48%;
+  position: absolute;
+  top: 2615px;
+  z-index: 1;
+}
