@@ -101,5 +101,52 @@ text-align: center;
   margin-bottom: 37px;
 }
 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #f57421;
+}
+
+.navbar-collapse {
+  box-shadow: none;
+
+}
+.navbar-brand {
+  padding: 9px 9px 9px 0;
+}
+.navbar {
+  min-height: 77px;
+}
+.navbar-default {
+  background-color: #333333;
+  border-color: #333333;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #333333;
+}
+
+.navbar-brand > img {
+  margin-top: -39px;
+}
+.navbar-default .navbar-toggle {
+  border-color: #333333;
+}
+.navbar-toggle {
+  background-color: #f57421;
+  margin-right: 15px;
+  margin-top: -5px;
+  border-radius: 0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+.trial {
+  border: medium none;
+
+}
+
+
+
+
+
+
 }
 
